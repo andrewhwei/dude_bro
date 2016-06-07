@@ -1,5 +1,9 @@
 require "dude_bro/version"
 
 module DudeBro
-  # Your code goes here...
+  class Dude
+    def duder
+      `say dude`
+    end
+  end
 end
